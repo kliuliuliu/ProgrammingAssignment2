@@ -16,7 +16,6 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get=get, setinvmatrix = setinvmatrix, getinvmatrix = getinvmatrix)
 }
 
-
 ## Returns cached inversed matrix or computes inverse matrix if not already cached
 ## Square matrix required
 ## If inverse matrix is already cached, message and inverse matrix is returned
